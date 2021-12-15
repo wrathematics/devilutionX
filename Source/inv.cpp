@@ -1652,9 +1652,9 @@ void AutoGetItem(int pnum, Item *item, int ii)
 	bool done;
 	bool autoEquipped = false;
 
-	if (pcurs != CURSOR_HAND) {
-		return;
-	}
+	//if (pcurs != CURSOR_HAND) {
+		//return;
+	//}
 
 	if (dropGoldFlag) {
 		CloseGoldDrop();
